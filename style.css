@@ -1,91 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Noto+Sans:wght@900&family=Open+Sans:ital,wght@0,400;0,800;1,300&family=Playfair+Display:wght@500&family=Poppins:ital@0;1&family=Roboto&display=swap');
 body{
-  overflow: hidden;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .page_image{
-  background-image: url(./assets/bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #080808;
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #080808;
 }
 .flex{
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .heading{
-  font-family: 'Poppins', sans-serif;
-  position: absolute;
-  color: rgb(90, 37, 192);
-  font-size: 3.5em;
-  font-weight: 900;
-  left: 500px;
-  top: 35px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    color: rgb(90, 37, 192);
+    font-size: 3.5em;
+    font-weight: 900;
+    left: 500px;
+    top: 35px;
 }
 .logo{
-  position: absolute;
+    position: absolute;
     width: 40%;
     top: 200px;
     right: 729px;
 
 }
 .play_logo{
-  position: absolute;
+    position: absolute;
     top: 640px;
     width: 8%;
     right: 470px;
 }
 .play_text{
-  color: white;
-  position: absolute;
-  font-size: 2.5em;
-  font-family: 'Poppins', sans-serif;
-  top: 625px;
-  left: 1099px;
+    color: white;
+    position: absolute;
+    font-size: 2.5em;
+    font-family: 'Poppins', sans-serif;
+    top: 625px;
+    left: 1099px;
 }
 
 .score_board {
-  text-align: center;
-  margin-top: 60px; 
-  margin-left: 40px;
-  font-size: 24px; 
+    text-align: center;
+    margin-top: 60px; 
+    margin-left: 40px;
+    font-size: 24px; 
 }
 .score{
-  font-size: 4em;
-  color: white;
-  padding: 10px;
-  margin-top: 70px;
+    font-size: 4em;
+    color: white;
+    padding: 10px;
+    margin-top: 70px;
 }
 .text{
-  color: white;
-  position: relative;
-  left: 100px;
-  top:-20px;
+    color: white;
+    position: relative;
+    font-size: 45px;
+    font-weight: 800;
+    left: 140px;
+    top:-20px;
 }
 .container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 20px;
-  margin-top: 100px;
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
 }
 
 .person {
-  font-size: 2em;
-  text-align: center;
-  border: 1px solid  #ffc434 ;
-  width:400px;
-  height: 400px;
+    font-size: 2em;
+    text-align: center;
+    border: 1px solid  #ffc434 ;
+    width:400px;
+    height: 400px;
 }
 
 
 #paper {
-width:60px;
-height: 60px;
-position: relative;
-top: 300px;
-right: 60px;
+    width:80px;
+    height: 80px;
+    position: relative;
+    top: 300px;
+    right: 60px;
 }
 
 
@@ -101,25 +107,26 @@ right: 60px;
 
 
 #rock {
-  width:60px;
-height: 60px;
-position: relative;
-top: 300px;
-right: 40px;
+    width:80px;
+    height: 80px;
+    position: relative;
+    top: 300px;
+    right: 40px;
 }
 
 
 #scissors {
-  width:60px;
-height: 60px;
-position: relative;
-top: 300px;
-right: 20px;
+    width:80px;
+    height: 80px;
+    position: relative;
+    top: 300px;
+    right: 20px;
 }
 
 .comp {
-  font-size: 2em;
-  color: white ;
+    font-size: 45px;
+    font-weight: 800;
+    color: white;
     text-align: center;
     border: 1px solid #ffc434;
     width: 400px;
@@ -128,48 +135,50 @@ right: 20px;
 
 
 #versus {
-  width: 100px;
-  height: 500px;
-  margin-top: 40px;
+    width: 100px;
+    height: 520px;
+    margin-top: 60px;
 }
 #text{
-  position: relative;
-  left: 100px;
+    position: relative;
+    left: 100px;
 }
 
 #computer{
-  width: 100%;
+    width: 100%;
     height: auto;
     position: relative;
     left: 0px;
     top: 40px;
 }
 #person{
-  width: 100%;
-  height: auto;
-  position: relative;
-  bottom: 30px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 30px;
 }
 #won_text{
-  font-size: 25px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 900;
-  color: white;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: white;
 }
 #game_end{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-  visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    visibility: hidden;
 }
 #play_again_button{
-  margin-top: 15px;
-  font-family: 'Poppins', sans-serif;
-  background-color: #ffc434;
-  height: 40px;
-  width: 150px;
-  font-size: 20px;
-  font-weight: 900;
-  border-radius: 12px;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F7BB3D;
+    color: white;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 1000;
+    border-radius: 5px;
+    border: none;
 }
