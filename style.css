@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+  overflow: hidden;
+}
+.page_image{
+  background-image: url(./assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #080808;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.heading{
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  color: rgb(90, 37, 192);
+  font-size: 3.5em;
+  font-weight: 900;
+  left: 500px;
+  top: 35px;
+}
+.logo{
+  position: absolute;
+    width: 40%;
+    top: 200px;
+    right: 729px;
+
+}
+.play_logo{
+  position: absolute;
+    top: 640px;
+    width: 8%;
+    right: 470px;
+}
+.play_text{
+  color: white;
+  position: absolute;
+  font-size: 2.5em;
+  font-family: 'Poppins', sans-serif;
+  top: 625px;
+  left: 1099px;
+}
+
+.score_board {
+  text-align: center;
+  margin-top: 60px; 
+  margin-left: 40px;
+  font-size: 24px; 
+}
+.score{
+  font-size: 4em;
+  color: white;
+  padding: 10px;
+  margin-top: 70px;
+}
+.text{
+  color: white;
+  position: relative;
+  left: 100px;
+  top:-20px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin-top: 100px;
+
+}
+
+.person {
+  font-size: 2em;
+  text-align: center;
+  border: 1px solid  #ffc434 ;
+  width:400px;
+  height: 400px;
+}
+
+
+#paper {
+width:60px;
+height: 60px;
+position: relative;
+top: 300px;
+right: 60px;
+}
+
+
+#rock:hover, #paper:hover, #scissors:hover{
+    transform: scale(0.9);
+}
+#rock:active, #paper:active, #scissors:active{
+    transform: scale(0.7);
+}
+#rock, #paper, #scissors{
+    transition: 0.2s;
+}
+
+
+#rock {
+  width:60px;
+height: 60px;
+position: relative;
+top: 300px;
+right: 40px;
+}
+
+
+#scissors {
+  width:60px;
+height: 60px;
+position: relative;
+top: 300px;
+right: 20px;
+}
+
+.comp {
+  font-size: 2em;
+  color: white ;
+    text-align: center;
+    border: 1px solid #ffc434;
+    width: 400px;
+    height: 400px;
+}
+
+
+#versus {
+  width: 100px;
+  height: 500px;
+  margin-top: 40px;
+}
+#text{
+  position: relative;
+  left: 100px;
+}
+
+#computer{
+  width: 100%;
+    height: auto;
+    position: relative;
+    left: 0px;
+    top: 40px;
+}
+#person{
+  width: 100%;
+  height: auto;
+  position: relative;
+  bottom: 30px;
+}
+#won_text{
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  color: white;
+}
+#game_end{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  visibility: hidden;
+}
+#play_again_button{
+  margin-top: 15px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffc434;
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 12px;
+}
